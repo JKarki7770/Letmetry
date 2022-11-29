@@ -1,0 +1,13 @@
+points = int(input("Write your grade:\n"))
+
+print ("You got an ", end='')
+if points>90:
+    print("A+")
+elif points>80:
+    print("A")
+elif points>70:
+    print("B+")
+elif points>60:
+    print("B")
+else:
+    print ("Fail")
